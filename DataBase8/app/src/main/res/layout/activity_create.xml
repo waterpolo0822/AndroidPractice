@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.george.database8.create">
+    <EditText
+        android:id="@+id/namae"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:layout_marginTop="40dp"
+        android:textSize="50dp"/>
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:layout_marginTop="40dp"
+        android:textSize="50dp"/>
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email address"
+        android:layout_marginTop="40dp"
+        android:textSize="50dp"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:layout_marginTop="40dp"
+        android:inputType="textPassword"
+        android:textSize="50dp"/>
+    <EditText
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm password"
+        android:layout_marginTop="40dp"
+        android:inputType="textPassword"
+        android:textSize="50dp"/>
+    <EditText
+        android:id="@+id/country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Country you live"
+        android:layout_marginTop="40dp"
+        android:textSize="50dp"/>
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>

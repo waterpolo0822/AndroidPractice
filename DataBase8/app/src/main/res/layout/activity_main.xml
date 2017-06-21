@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/india"
+    tools:context="com.example.george.database8.MainActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+        <Button
+            android:id="@+id/login"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="login"
+            android:layout_marginLeft="450dp"
+            android:textColor="#2dde19"
+            android:background="@color/colorPrimary"/>
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:text="Hi.misao"
+        android:textColor="#e60cb6"
+        android:textSize="50dp" />
+
+</LinearLayout>
